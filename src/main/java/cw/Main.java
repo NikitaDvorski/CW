@@ -8,7 +8,6 @@ public class Main {
 
         String sql = "SELECT * FROM BookStore";
 
-
         try (Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/sakila?serverTimezone=Europe/Moscow",
                 "root", "1111");
              Statement statement = conn.createStatement()) {
